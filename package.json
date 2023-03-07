@@ -11,7 +11,6 @@
 		"lint": "eslint src tests --color --ext .js --ext .ts",
 		"lint:fix": "eslint src tests --color --ext .js --ext .ts --fix",
 		"lint:watch": "npm run lint -- --watch  --ext .js --ext .ts",
-		"translate:scan": "i18next-scanner 'src/**/*.ts'",
 		"prebuild": "rm -rf dist",
 		"build": "tsc"
 	},
@@ -33,9 +32,6 @@
 		"eslint": "8.33.0",
 		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-prettier": "^4.2.1",
-		"i18next-fs-backend": "^2.1.1",
-		"i18next-http-middleware": "^3.2.2",
-		"i18next-scanner": "^4.1.0",
 		"mocha": "^10.2.0",
 		"nyc": "^15.1.0",
 		"prettier": "^2.8.3",
